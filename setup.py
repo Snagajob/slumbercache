@@ -24,7 +24,7 @@ setup(
     version = version,
     description = "A library that makes consuming a REST API easier and more convenient with Cache",
     long_description="\n\n".join([
-        open(os.path.join(base_dir, "README.md"), "r").read(),
+        open(os.path.join(base_dir, "README.rst"), "r").read(),
         open(os.path.join(base_dir, "CHANGELOG.rst"), "r").read()
     ]),
     url = "http://github.com/snagajob/slumbercache",
