@@ -12,7 +12,7 @@ and request processing.
 Credit
 ======
 
-`slumber-cache` is a fork of [slumber](https://github.com/samgiles/slumber) with Cache added for better performance
+`slumbercache` is a fork of [slumber](https://github.com/samgiles/slumber) with Cache added for better performance
 
 
 
