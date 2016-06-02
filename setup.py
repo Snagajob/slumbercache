@@ -2,12 +2,12 @@ import os
 import sys
 from setuptools import setup
 
-install_requires = ["requests"]
+install_requires = ["requests", "CacheControl"]
 tests_require = ["mock", "unittest2"]
 
 base_dir = os.path.dirname(os.path.abspath(__file__))
 
-version = "0.1.0"
+version = "0.1.1"
 
 if sys.argv[-1] == 'publish':
     os.system("git tag -a %s -m 'v%s'" % (version, version))
