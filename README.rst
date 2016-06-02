@@ -9,10 +9,31 @@ and request processing.
 .. _requests: http://python-requests.org/
 
 
+Install
+=======
+``pip install slumbercache``
+
+
+Usage
+=====
+
+Example Usage with Cache enabled
+
+.. code-block:: pycon
+
+    import slumbercache
+    
+    api = slumbercache.API("http://slumbercache.in/api/v1/", auth=("demo", "demo"), cache=True)
+    ## GET http://slumbercache.in/api/v1/note/
+    api.note.get()
+
+
 Credit
 ======
 
-`slumbercache` is a fork of [slumber](https://github.com/samgiles/slumber) with Cache added for better performance
+`slumbercache` is a fork of slumber_ with Cache added for better performance
+
+.. _slumber: https://github.com/samgiles/slumber
 
 
 
